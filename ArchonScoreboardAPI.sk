@@ -58,4 +58,4 @@ sub "scoreboard-update":
 		set score "%{line9}%" in sidebar of loop-player to 2
 		set score "&c" in sidebar of loop-player to 1
 on join:
-	invoke "scoreboard-update"
+	invoke "scoreboard-update" from the player
